@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoSohbet">
+
+    <FrameLayout
+        android:id="@+id/GelenGoruntu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Beyaz">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Gidengoruntu"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="67dp"
+        android:background="@color/gri">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/historia"
+        android:text="Icepair"
+        android:textColor="@color/Beyaz"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/videosayac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/yuvarlakmorsert"
+        android:padding="8dp"
+        android:text="60"
+        android:layout_margin="5dp"
+        android:textColor="@color/Beyaz" />
+
+    <TextView
+        android:id="@+id/vdeo_cik"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/vdeo_kpt"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mavi2"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:text="GEÇ"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/vdeo_begn"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/vdeo_cik"
+        android:layout_marginEnd="-5dp"
+        android:layout_toStartOf="@+id/videosayac"
+        android:background="@drawable/mor"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:text="BEĞEN"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/vdeo_kpt"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Gidengoruntu"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="-59dp"
+        android:background="@drawable/mor"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:text="KAPAT"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

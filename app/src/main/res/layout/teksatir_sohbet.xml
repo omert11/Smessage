@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/Sohbetkisiresim"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/siyaharka"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/SohbetKisiisim"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/siyah"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Sohbetkisiresim"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/SohbetSaat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/golge"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/SohbetOkunmamismesaj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/SohbetOkunmamismesaj" />
+
+    <TextView
+        android:id="@+id/SohbetSonMesaj"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="90dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Sohbetkisiresim"
+        app:layout_constraintTop_toBottomOf="@+id/SohbetKisiisim" />
+
+    <TextView
+        android:id="@+id/SohbetOkunmamismesaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/mavi2"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:paddingTop="3dp"
+        android:text="1"
+        android:textColor="@color/Beyaz"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/SohbetSonMesaj"
+        app:layout_constraintTop_toTopOf="@+id/SohbetSonMesaj" />
+
+    <TextView
+        android:id="@+id/Sohbettaraf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/yuvbilgcerceve"
+        android:padding="4dp"
+        android:text="Gelen"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/SohbetKisiisim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/SohbetKisiisim" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintTop_toBottomOf="@+id/SohbetOkunmamismesaj" />
+
+</android.support.constraint.ConstraintLayout>

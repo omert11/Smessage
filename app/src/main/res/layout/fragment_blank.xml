@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragmenback"
+    tools:context=".prekesfet">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="icepair Premium'a geçin"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/Prebilgrescev"
+        android:layout_width="0dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/satinal_3"
+        android:layout_width="275dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/cerceve"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:paddingEnd="70dp"
+        android:paddingStart="70dp"
+        android:text="Ayda ₺ 7'ya 6 ay"
+        android:textColor="@color/Beyaz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Prebilgrescev" />
+
+    <TextView
+        android:id="@+id/satinal_2"
+        android:layout_width="275dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/cerceve2"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:paddingEnd="70dp"
+        android:paddingStart="70dp"
+        android:text="Ayda ₺ 12'ya 3 ay"
+        android:textColor="@color/Beyaz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/satinal_3" />
+
+    <TextView
+        android:id="@+id/satinal_1"
+        android:layout_width="275dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/cerceve2"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:paddingEnd="70dp"
+        android:paddingStart="70dp"
+        android:text="Ayda ₺ 15'ya 1 ay"
+        android:textColor="@color/Beyaz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/satinal_2" />
+
+    <Space
+        android:layout_width="7dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/satinal_1" />
+
+    <com.pixelcan.inkpageindicator.InkPageIndicator
+        android:id="@+id/sayfabelirteci"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:ipi_animationDuration="320"
+        app:ipi_currentPageIndicatorColor="@android:color/black"
+        app:ipi_dotDiameter="8dp"
+        app:ipi_dotGap="8dp"
+        app:ipi_pageIndicatorColor="@color/gri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Prebilgrescev" />
+
+    <ImageView
+        android:id="@+id/prebilkapat"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/crop__ic_cancel"
+        app:layout_constraintBottom_toTopOf="@+id/Prebilgrescev"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView8" />
+</android.support.constraint.ConstraintLayout>

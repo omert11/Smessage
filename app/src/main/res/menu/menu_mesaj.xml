@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mesaj_menu"
+        android:title="Seçenekler"
+        android:icon="@drawable/ic_clear_all_blue_500_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+</menu>

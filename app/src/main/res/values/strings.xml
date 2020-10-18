@@ -1,0 +1,247 @@
+<resources>
+    <string name="app_name">Icepair</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="agora_app_id">21c756983e394deca426183326d1d316</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="facebook_app_id">760678464266299</string>
+    <string name="Giris_iptal">Giriş iptal edildi</string>
+    <string name="Giris_hata">Giriş başarısız hata:</string>
+    <string name="Kontrol_Alan">Alanları kontrol ediniz</string>
+    <string name="Giris_basarili">Giriş başarılı</string>
+    <string name="Giris_basarisiz">Giriş başarısız</string>
+    <string name="Kontrol_isim">Bir isim girmelisiniz</string>
+    <string name="Kontol_resim">Bir resim yüklemelisiniz</string>
+    <string name="Kontrol_izin">Tüm izinleri vermelisiniz</string>
+    <string name="Res_sec">Resminizi Seçiniz</string>
+    <string name="Yukleniyor">Yükleniyor</string>
+    <string name="Iptal">İptal</string>
+    <string name="Res_gal">Galeriden yükle</string>
+    <string name="Res_cam">Kameradan yükle</string>
+    <string name="Kontrol_hOlustu">Bir hata olustu</string>
+    <string name="Hf_EmsjAtn">Haftanın en çok mesaj atanı</string>
+    <string name="Hf_EcAo">Haftanın en çok arkadaş olanı</string>
+    <string name="Hf_EcKa">Haftanın en çok konuşma alanı</string>
+    <string name="Hf_EcTk">Haftanın en çok tecrübe kazananı</string>
+    <string name="Arkadassay">Arkadas sayısı:</string>
+    <string name="Gelenkonusmasay">Gelen konusma sayısı:</string>
+    <string name="Toplammesjsay">Toplam mesaj sayısı:</string>
+    <string name="Cevrimici">Çevrim içi</string>
+    <string name="Konusma_Pre">Daha fazla konuşma başlatmak için Seviye atlayın veya Premium alın</string>
+    <string name="Kontrol_Pre">Premium değilsiniz</string>
+    <string name="Kontrol_Karakter">En fazla 300 karakter yazabilirsiniz</string>
+    <string name="Kontrol_onay_p">İlk önce profil fotoğrafı onayını veriniz</string>
+    <string name="Kontrol_onay_i">İlk önce isim onayını veriniz</string>
+    <string name="Kontrol_onay_a">İlk önce arkadaş ekleme onayını veriniz</string>
+    <string name="Soru_Profılres">Bu mesajı onaylarsanız profil fotoğrafınız gözükecektir.Onaylıyormusunuz?</string>
+    <string name="Soru_Profılism">Bu mesajı onaylarsanız profil isminiz gözükecektir.Onaylıyormusunuz?</string>
+    <string name="Soru_Ark">Bu mesajı onaylarsanız artık sizi arkadaş ekleyebilecektir.Onaylıyormusunuz?</string>
+    <string name="fb_login_protocol_scheme">fb760678464266299</string>
+    <string name="Kanaladi">Sms</string>
+    <string-array name="Bilgilendirme">
+        <item>Seviye başına görüntülü konuşma süreni 20 saniye uzattık.Her şey senin için :)</item>
+        <item>Rahat rahat konuş diye cinsiyet seçeneğini bedava yaptık.</item>
+        <item>Seviye başına konuşma sayını 1 arttırıyoruz ama merak etme alabileceğin mesaj sayısı sınırsız.</item>
+        <item>Seviye alman çok kolay sadece mesaj at.</item>
+        <item>İsmini ve resmini gizledik ve sen isteyene kadar göstermiyeceğiz merak etme.</item>
+        <item>Profiline resim ekleyebileceğini biliyormuydun.Seni daha iyi tanımaları için elimizden geleni yapıyoruz.</item>
+        <item>Uygulamayla ilgili bütün ayarları Profil menusunden erişebilirsin</item>
+        <item>Premium hesapla Konum,Yaş özelliklerini açabilirsin.Bu kadar değil tabiki görüntülü konuşma süren artık 10 dakika ve Konuşma sınırında kalktı </item>
+        <item>Birini bulmak istersen kriterlerini az tutmaya çalış ki daha  kesin sonuç elde et.</item>
+        <item>Bir kişiyle konuşurken ona sınırsız Like , Dislike atabilirsin . Tabi bu senin vicdanına kalmış kanka :)</item>
+        <item>Bir kişiyi engellediğinde tüm mesajlar silinir ve artık seni bulamaz.Ayarlar kısmından bunu düzelte bilirsin.</item>
+        <item>Geliştirmek için elimizden geleni yapıyoruz fakat fikirlerinde bize lazım kanka.Ayarlar bölümünde sorun bildir kısmına gir bize yazmayı unutma özletme kendini :)</item>
+    </string-array>
+    <string-array name="Sehir">
+        <item>-</item>
+        <item>Adana</item>
+        <item>Adıyaman</item>
+        <item>Afyonkarahisar</item>
+        <item>Ağrı</item>
+        <item>Amasya</item>
+        <item>Ankara</item>
+        <item>Antalya</item>
+        <item>Artvin</item>
+        <item>Aydın</item>
+        <item>Balıkesir</item>
+        <item>Bilecik</item>
+        <item>Bingöl</item>
+        <item>Bitlis</item>
+        <item>Bolu</item>
+        <item>Burdur</item>
+        <item>Bursa</item>
+        <item>Çanakkale</item>
+        <item>Çankırı</item>
+        <item>Çorum</item>
+        <item>Denizli</item>
+        <item>Diyarbakır</item>
+        <item>Edirne</item>
+        <item>Elazığ</item>
+        <item>Erzincan</item>
+        <item>Erzurum</item>
+        <item>Eskişehir</item>
+        <item>Gaziantep</item>
+        <item>Giresun</item>
+        <item>Gümüşhane</item>
+        <item>Hakkâri</item>
+        <item>Hatay</item>
+        <item>Isparta</item>
+        <item>İçel (Mersin)</item>
+        <item>İstanbul</item>
+        <item>İzmir</item>
+        <item>Kars</item>
+        <item>Kastamonu</item>
+        <item>Kayseri</item>
+        <item>Kırklareli</item>
+        <item>Kırşehir</item>
+        <item>Kocaeli</item>
+        <item>Konya</item>
+        <item>Kütahya</item>
+        <item>Malatya</item>
+        <item>Manisa</item>
+        <item>Kahramanmaraş</item>
+        <item>Mardin</item>
+        <item>Muğla</item>
+        <item>Muş</item>
+        <item>Nevşehir</item>
+        <item>Niğde</item>
+        <item>Ordu</item>
+        <item>Rize</item>
+        <item>Sakarya</item>
+        <item>Samsun</item>
+        <item>Siirt</item>
+        <item>Sinop</item>
+        <item>Sivas</item>
+        <item>Tekirdağ</item>
+        <item>Tokat</item>
+        <item>Trabzon</item>
+        <item>Tunceli</item>
+        <item>Şanlıurfa</item>
+        <item>Uşak</item>
+        <item>Van</item>
+        <item>Yozgat</item>
+        <item>Zonguldak</item>
+        <item>Aksaray</item>
+        <item>Bayburt</item>
+        <item>Karaman</item>
+        <item>Kırıkkale</item>
+        <item>Batman</item>
+        <item>Şırnak</item>
+        <item>Bartın</item>
+        <item>Ardahan</item>
+        <item>Iğdır</item>
+        <item>Yalova</item>
+        <item>Karabük</item>
+        <item>Kilis</item>
+        <item>Osmaniye</item>
+        <item>Düzce</item>
+    </string-array>
+    <string-array name="Cinsiyet">
+        <item>Kadin</item>
+        <item>Erkek</item>
+    </string-array>
+    <string-array name="Gunler">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="Aylar">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="Yillar">
+        <item>1973</item>
+        <item>1974</item>
+        <item>1975</item>
+        <item>1976</item>
+        <item>1977</item>
+        <item>1978</item>
+        <item>1979</item>
+        <item>1980</item>
+        <item>1981</item>
+        <item>1982</item>
+        <item>1983</item>
+        <item>1984</item>
+        <item>1985</item>
+        <item>1986</item>
+        <item>1987</item>
+        <item>1988</item>
+        <item>1989</item>
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+
+    </string-array>
+    <string-array name="Yas">
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+

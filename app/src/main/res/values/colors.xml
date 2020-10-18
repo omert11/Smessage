@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#238ec9</color>
+    <color name="colorPrimaryarka">#ffffff</color>
+    <color name="colorPrimaryDark">#5585C7</color>
+    <color name="colorAccent">#5D6AB5</color>
+    <color name="siyah">#1d1f2b</color>
+    <color name="golge">#717171</color>
+    <color name="Beyaz">#ffffff</color>
+    <color name="mavi">#105187</color>
+    <color name="yokmavi">#daeeff</color>
+    <color name="yesil">#daeff2</color>
+    <color name="altin">#d4af37</color>
+    <color name="mor">#251158</color>
+    <color name="tp">#00ffffff</color>
+    <color name="gri">#c2c2c2</color>
+    <color name="k_gri">#ededed</color>
+    <color name="mors">#9d58d6</color>
+    <color name="cercevearka">#c45f91</color>
+</resources>

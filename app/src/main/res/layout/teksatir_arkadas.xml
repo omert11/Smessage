@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/arkadastekresim"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/backgraund"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/arkadastekisim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="@color/siyah"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/arkadastekresim"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/arkadastekonayla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/arkadastekresim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_check_green_800_36dp" />
+
+    <ImageView
+        android:id="@+id/arkadastekred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/arkadastekonayla"
+        app:layout_constraintEnd_toStartOf="@+id/arkadastekonayla"
+        app:layout_constraintTop_toTopOf="@+id/arkadastekonayla"
+        app:srcCompat="@drawable/ic_clear_red_a400_36dp" />
+
+    <TextView
+        android:id="@+id/arkadastekbilgi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Bu Kisi Sizi Arkadas Ekledi"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/arkadastekred"
+        app:layout_constraintEnd_toStartOf="@+id/arkadastekred"
+        app:layout_constraintTop_toTopOf="@+id/arkadastekred" />
+
+    <TextView
+        android:id="@+id/arkadastekdurum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Cevrimici"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/arkadastekisim"
+        app:layout_constraintStart_toEndOf="@+id/arkadastekisim"
+        app:layout_constraintTop_toTopOf="@+id/arkadastekisim" />
+
+    <ImageView
+        android:id="@+id/arkadastekmesajyolla"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/arkadastekresim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_message_indigo_400_36dp" />
+</android.support.constraint.ConstraintLayout>

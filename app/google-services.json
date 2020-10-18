@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "146224009966",
+    "firebase_url": "https://fir-msagge.firebaseio.com",
+    "project_id": "fir-msagge",
+    "storage_bucket": "fir-msagge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146224009966:android:2a9410c39cf7f4ad",
+        "android_client_info": {
+          "package_name": "com.mesage.s.s_msagge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146224009966-4mjchu90rgn6k70d1g49trvsp3g740bk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mesage.s.s_msagge",
+            "certificate_hash": "7ba3cda85dc88cbcd26a7f0a82ff12511fe2fe53"
+          }
+        },
+        {
+          "client_id": "146224009966-sl2b2isi93klhpem6djguscv1skm4pjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2_7ITQinmNbp45rDMbvLmf8Y3f0gtN6I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146224009966-sl2b2isi93klhpem6djguscv1skm4pjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

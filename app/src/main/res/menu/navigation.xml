@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Anamenu"
+        android:icon="@drawable/icepairlogo"
+        android:title="Akış" />
+    <item
+        android:id="@+id/arkadaslar"
+        android:icon="@drawable/friendship"
+        android:title="Arkadaşlar" />
+
+
+    <item
+        android:id="@+id/messajlar"
+        android:icon="@drawable/konusma"
+        android:title="Mesajlar"/>
+    <item
+        android:id="@+id/profil"
+        android:icon="@drawable/avatar"
+        android:title="Profil"/>
+
+
+
+</menu>
